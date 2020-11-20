@@ -6,6 +6,6 @@ end
 
 def list_dwarves(array)
 array.each.with_index(1) do |index, name|
-  puts "#{index}. #{name}"
+  print "#{index}. #{name}"
  end
 end
