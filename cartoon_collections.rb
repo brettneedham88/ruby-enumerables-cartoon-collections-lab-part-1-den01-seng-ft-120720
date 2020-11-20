@@ -5,6 +5,6 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
-array.each do |name|
+array.each do |name, index|
   puts ""
 end
